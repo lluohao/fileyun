@@ -1,0 +1,10 @@
+CREATE TABLE yunfile(
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(200) NOT NULL,
+  content  NOT NULL,
+  createTime TIMESTAMP ,
+  download INT DEFAULT 0,
+  status INT DEFAULT 2,
+  des VARCHAR(2000),
+  auth VARCHAR(50)
+)CHARSET=utf8
